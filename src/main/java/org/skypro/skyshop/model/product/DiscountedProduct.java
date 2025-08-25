@@ -31,9 +31,4 @@ public class DiscountedProduct extends Product {
     public String toString() {
         return this.getName() + ":" + getPrice() + "(" + this.percentDiscount + "%)";
     }
-
-    @Override
-    public UUID getId() {
-        return null;
-    }
 }

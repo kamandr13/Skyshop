@@ -6,7 +6,7 @@ public class FixPriceProduct extends Product {
     private static final int PRICE = 100;
 
     public FixPriceProduct(UUID id, String name) {
-        super(id,name);
+        super(id, name);
     }
 
     @Override
@@ -22,10 +22,5 @@ public class FixPriceProduct extends Product {
     @Override
     public String toString() {
         return this.getName() + ":фиксированная цена " + PRICE;
-    }
-
-    @Override
-    public UUID getId() {
-        return null;
     }
 }
